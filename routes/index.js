@@ -9,6 +9,9 @@ const tweetController = require('../controllers/tweetController');
 // Index page
 router.get('/', appController.indexPage);
 
+// Single tweet page 
+router.get('/tweet/:id', tweetController.singleTweetPage);
+
 // API
 ////////////////////////////////
 router.post('/api/tweets/:id/heart', userController.heartTweet)

@@ -1,4 +1,5 @@
 const Tweet = require('../models/Tweet');
+const moment = require('moment');
 
 // Home page to list all tweets
 exports.postTweet = async (req, res) => {
@@ -40,5 +41,18 @@ exports.deleteTweet = async (req, res) => {
 		res.redirect('/?msg=Failed to delete')
 	}
 
+
+}
+
+// Getting a single Tweet 
+exports.singleTweetPage = async (req, res) => {
+	try {
+		const tweet = await Tweet.findOne({ _id: req.params.id }).populate('author');
+		res.render('single', { tweet, moment });
+		
+	} catch (err) {
+		console.log(err);
+		res.redirect('/?msg=No tweets found')
+	}
 
 }

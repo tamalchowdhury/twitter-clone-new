@@ -234,6 +234,11 @@ textarea {
 	color: green;
 }
 
+/* Single tweet page  */
+.single_tweet {
+	/* padding: 50px; */
+	font-size: 2rem;
+}
 
 /* Tweet form styles  */
 .tweet_text textarea {
