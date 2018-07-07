@@ -1,17 +1,17 @@
 
-// Ajax tweet
-function ajaxTweet(e) {
-	e.preventDefault();
-	axios
-		.post(this.action, { tweet: this.tweet.value } )
-		.then(res => {
-			// console.log(res);
-			this.tweet.value = '';
-			console.log('Tweeted!');
-		})
-		.catch(e => console.log(e))
-	// console.log(this.tweet.value);
-}
+// // Ajax tweet
+// function ajaxTweet(e) {
+// 	e.preventDefault();
+// 	axios
+// 		.post(this.action, { tweet: this.tweet.value } )
+// 		.then(res => {
+// 			// console.log(res);
+// 			this.tweet.value = '';
+// 			console.log('Tweeted!');
+// 		})
+// 		.catch(e => console.log(e))
+// 	// console.log(this.tweet.value);
+// }
 
 
 // Ajax hearts
