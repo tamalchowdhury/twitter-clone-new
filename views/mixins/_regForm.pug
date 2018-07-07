@@ -1,0 +1,12 @@
+mixin regForm()
+	form.form(action='/register' method='POST')
+		
+		label(for='username') Choose a Username:
+		input(type='text' name='username' )
+		label(for='email') Enter your email:
+		input(type='email' name='email')
+		label(for='password') Set a password:
+		input(type='password' name='password' )
+		label(for='password-confirm') Re-enter your password:
+		input(type='password' name='password-confirm' )
+		input(type='submit' class='button' value='Create an Account')
