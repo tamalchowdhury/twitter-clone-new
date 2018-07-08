@@ -1,5 +1,5 @@
 {
-  "name": "1TwitteClone",
+  "name": "Twitter Clone",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -25,9 +25,13 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node ./app.js"
+  },
+  "now": {
+    "dotenv": "variables.env.now"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tamal Anwar",
   "license": "ISC"
 }
