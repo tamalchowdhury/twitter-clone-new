@@ -2,3 +2,5 @@ node_modules/
 public/uploads/*
 logs
 *.log
+variables.env
+variables.env.now
