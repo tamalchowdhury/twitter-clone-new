@@ -25,8 +25,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "start": "node ./app.js"
+    "start": "nodemon app.js"
   },
   "now": {
     "dotenv": "variables.env.now"
