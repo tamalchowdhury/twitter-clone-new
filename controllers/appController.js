@@ -4,11 +4,6 @@ const moment = require('moment');
 // The default controller for this app
 // The home page
 exports.indexPage = async (req, res) => {
-	if(!req.isAuthenticated()) {
-		res.redirect('/register');
-		return;
-	}
-
 	try {
 		const tweets = await Tweet.find({ })
 		.populate('author')

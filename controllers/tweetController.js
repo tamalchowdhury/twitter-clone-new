@@ -33,7 +33,10 @@ const confirmedOwner = (tweet, user) => {
 exports.deleteTweet = async (req, res) => {
 	try {
 		const tweet = await Tweet.findOne({ _id: req.params.id });
-		confirmedOwner(tweet, req.user);
+		if(!req.user.username === 'tamal') {			
+			confirmedOwner(tweet, req.user);
+		}
+
 		const deleteTweet = await Tweet.deleteOne(tweet);
 		res.redirect('back')
 	} catch (e) {

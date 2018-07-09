@@ -1,5 +1,10 @@
 mixin loginForm()
+	
 	form.form_inline(action='/login' method='POST')
+		span
+			strong
+				a(href="/register") Register
+		span  Or 
 		label(for='email') Email:
 		input(type='email' name='email')
 		label(for='password') Password:
