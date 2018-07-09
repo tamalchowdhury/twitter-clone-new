@@ -62,7 +62,7 @@ exports.accountUpdate = async (req, res) => {
 	res.redirect('/account?msg=account updated')
 } catch(e) {
 	console.log(e);
-	res.redirec('back')
+	res.redirect('back')
 	}
 }
 

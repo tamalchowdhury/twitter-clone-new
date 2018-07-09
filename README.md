@@ -1,2 +1,2 @@
 # See it online at:
-https://twitter-clone-cnzprjnwyz.now.sh/ 
+https://twitter-clone-new.herokuapp.com/
