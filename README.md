@@ -2,11 +2,11 @@
 
 https://twitter-clone-new.herokuapp.com/
 
-https://raw.githubusercontent.com/TamalAnwar/twitter-clone-new/master/screen-home.jpg
+![Homepage](https://raw.githubusercontent.com/TamalAnwar/twitter-clone-new/master/screen-home.jpg)
 
-https://raw.githubusercontent.com/TamalAnwar/twitter-clone-new/master/screen-profile.jpg
+![Profile page](https://raw.githubusercontent.com/TamalAnwar/twitter-clone-new/master/screen-profile.jpg)
 
-https://raw.githubusercontent.com/TamalAnwar/twitter-clone-new/master/screen-register.jpg
+![Register page](https://raw.githubusercontent.com/TamalAnwar/twitter-clone-new/master/screen-register.jpg)
 
 # To test it out
 
