@@ -2,9 +2,9 @@
 
 Create a `variables.env` file in the root and enter these credentials
 
-```PORT=3000
-DATABASE=mongodb://localhost/twitter_clone1
-SECRET='Anything you can type'```
+    PORT=3000
+    DATABASE=mongodb://localhost/twitter_clone1
+    SECRET='Anything you can type'
 
 **Replace the DATABASE url to a mongoDB driver url or your local database url**
 
