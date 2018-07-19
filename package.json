@@ -22,7 +22,9 @@
     "uuid": "^3.2.1",
     "validator": "^10.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
   "scripts": {
     "start": "node ./app.js",
     "dev": "nodemon ./app.js"

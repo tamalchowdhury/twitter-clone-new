@@ -22,7 +22,5 @@ Then run
 
 `npm run dev`
 
-(Nodemon is required) To install it globally run `npm install nodemon -g`
-
 # See it online at:
 https://twitter-clone-new.herokuapp.com/
