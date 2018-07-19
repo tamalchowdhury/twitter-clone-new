@@ -32,6 +32,7 @@ app.set('view engine', 'pug');
 
 // Public folder
 app.use(express.static(__dirname + '/public'));
+app.use('/uploads', express.static(__dirname + '/public'));
 
 // Body Parser
 app.use(bodyParser.json());
